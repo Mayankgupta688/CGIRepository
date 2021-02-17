@@ -1,5 +1,5 @@
 
-function ContentComponent() {
+export default function ContentComponent() {
     return (
         <div>
             <h2>Welcome to TechnoFunnel</h2>

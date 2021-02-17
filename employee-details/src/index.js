@@ -1,13 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import  { HeaderComponent } from "./components/HeaderComponent";
+import DynamicComponent from "./components/DynamicComponent";
 
-ReactDOM.render((
-    <div>
-        <HeaderComponent></HeaderComponent><hr/>
-    </div>
-), document.getElementById("root"))
+//ReactDOM.render(<DynamicComponent></DynamicComponent>, document.getElementById("root"))
 
 
 
