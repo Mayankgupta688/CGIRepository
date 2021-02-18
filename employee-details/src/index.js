@@ -1,9 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import DynamicComponent from "./components/DynamicComponent";
+import {HigherOrderComponentOne, HigherOrderComponentTwo, HigherOrderComponentThree } from "./components/HigherOrderComponents";
 
-//ReactDOM.render(<DynamicComponent></DynamicComponent>, document.getElementById("root"))
+debugger;
+ReactDOM.render((
+    <div>
+        <HigherOrderComponentOne></HigherOrderComponentOne><hr/>
+        <HigherOrderComponentTwo></HigherOrderComponentTwo><hr/>
+        <HigherOrderComponentThree></HigherOrderComponentThree>
+    </div>
+), document.getElementById("root"))
 
 
 
