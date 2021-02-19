@@ -41,6 +41,14 @@ export default class EmployeeList extends React.Component {
         }, 5000)
     }
 
+    componentWillUnmount() {
+
+    }
+
+    componentDidUpdate() {
+        
+    }
+
     render() {
         return (
             <div>

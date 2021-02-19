@@ -1,12 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import WorkingWithHooks from "./components/WorkingWithHooks";
+import MainApplicationPage from "./components/SinglePageAppComponent";
 
-debugger;
 ReactDOM.render((
     <div>
-        <WorkingWithHooks></WorkingWithHooks><hr/>
+        <MainApplicationPage></MainApplicationPage>
     </div>
 ), document.getElementById("root"))
 
